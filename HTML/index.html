@@ -6,13 +6,335 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Air Garage Clone</title>
     <style>
+        #container{
+            height: auto;
+            width: 940px;
+            margin-left:15%;
+        }
+        h1{
+            font-size: 40px;
+        }
+        #box1{
+            height:40px;
+            width: 100%;
+            display: flex;
+        }
+        #box1>img{
+            margin-right: 450px;
+        }
+        #box1>p{
+            margin-left: 40px;
+        }
 
+        #box2{
+            height: 550px;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #box2>img{
+            margin-top: 20px;
+            height: 260px;
+            width: 280px;
+        }
+        #box2>h1{
+            font-family: 'Quicksand', sans-serif;
+             font-size:38px;
+             line-height: 44px;
+             font-weight: 400;
+        }
+        #box2>p{
+            font-size: 20px;
+            color: rgb(138, 133, 133);
+        }
+        #box2>button{
+            padding: 20px 40px;
+            font-size: 20px;
+            color:#fb824c;
+            background-color: #ffeecc;
+            border: 0px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        #box3{
+            display: flex;
+            height:320px;
+            width: 940px;
+            margin: auto;
+        }
+        #box3>div{
+            height: 290px;
+            width: 440px;
+            margin: auto;
+            
+        }
+        #box3>div>img{
+            width: 100%;
+            height: 310px;
+            border-radius: 10px;
+        }
+        #box3 p{
+            color: dimgray;
+            width: 93%;
+        }
+
+        #image{
+            display: flex;
+            height: 20px;
+            width: 400px;
+            margin-left: 500px;
+            margin-top: 10px;
+        }
+        #image>img{
+            width: 50px;
+            margin-right: 60px;
+        }
+
+        #box4>p{
+            color: rgb(138, 133, 133);
+            width: 96%;
+            font-size: 17px;
+        }
+        #box4>h1{
+            margin-top: 100px;
+        }
+        #box4>img{
+            width: 100%;
+        }
+
+        
+        #box5>h1{
+            margin-top: 100px;
+        }
+        #box5>p{
+            color: rgb(138, 133, 133);
+            font-size: 17px;
+        }
+
+        #box6{
+            display: flex;
+            margin-top: 30px;
+            justify-content: space-between;
+        }
+        #box6>div{
+            height: 280px;
+            width: 280px;
+            border: 1px solid rgb(209, 206, 206);
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #box6 img{
+            height: 50px;
+            width: 50px;
+            margin: 25px;
+        }
+        #box6 p{
+            color: rgb(138, 133, 133);
+            width: 90%;
+            margin: 20px;
+        }
+        #box6 h3{
+            margin: 20px;
+            margin-top: -10px;
+        }
+        #btn{
+            width: 100%;
+            height: 120px;
+            border: 0px;
+            border-radius: 10px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        
+        #btn>p{
+            color: rgb(138, 133, 133);
+            font-size: 15px;
+            margin-top: -15px;
+        }
+
+        #box7{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+
+        }
+        #box7>div{
+            height: 500px;
+            width: 460px;
+        }
+        #box7 img{
+            width: 100%;
+            border-radius: 15px;
+        }
+        #box7 p{
+            color: rgb(138, 133, 133);
+            font-size: 15px;
+            line-height: 20px;
+            width: 88%;
+        }
+
+
+        #box8>h1{
+            margin-top: 100px;
+        }
+        #box8>p{
+            color: rgb(138, 133, 133);
+            font-size: 17px;
+            margin-top: -10px;
+        }
+
+        #box9{
+            display: flex;
+            margin-top: 30px;
+            justify-content: space-between;
+            margin-bottom: 80px;
+        }
+        #box9>div{
+            height: 280px;
+            width: 280px;
+            border: 1px solid rgb(209, 206, 206);
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #box9 img{
+            height: 50px;
+            width: 50px;
+            margin: 25px;
+        }
+        #box9 p{
+            color: rgb(138, 133, 133);
+            width: 80%;
+            margin: 20px;
+        }
+        #box9 h3{
+            margin: 20px;
+            margin-top: -10px;
+        }
+
+        #graph{
+            width: 100%;
+            height: 600px;
+            border: 1px solid orange;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
-    <div>
-        
+    <div id="container">
+    <div id="box1">
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png" alt="">
+            <p> Find Parking</p>
+            <p>Log in</p>
+            <p> Talk to Sales</p>
     </div>
+
+    <div id="box2">
+        <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ba98799d47da0806a85703_ag-p-500.png" >
+        <h1>Parking Operations for the 21st Century</h1>
+        <p>AirGarage modernizes parking assets with one streamlined service covering enforcement, payment collection, maintenance and more.</p>
+        <button>TALK TO SALES</button>
+    </div>
+
+    <div id="box3">
+        <div>
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60a6d928e7187f18da1ab8c1_color-garage-p-500.png" alt="">
+        </div>
+        <div>
+            <h1>Partner with AirGarage</h1>
+        <p>AirGarage is a full service parking operator. We handle all of the day-to-day logistics that go into making your parking lot or garage the most successful version of itself.</p>
+
+        <p>We operate hundreds of parking lots and garages across the United States and Canada on behalf of landlords, property managers, and other real estate operators. Our focus is using technology to lower operational overhead and increase your net parking income.</p>
+            <p>We're already maximizing returns for top-tier real estate owners</p>
+        </div>
+    </div>
+        <div id="image">
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5ff4db28ba55b4f84383d98f_1200px-Starwood_Hotels_and_Resorts_logo.svg-p-500.png" alt="">
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a3a18e780fad25095c2c4_marriot-p-500.png" alt="">
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f173b38239bc4f42286ffab_hilton-p-500.png" alt="">
+        </div>
+
+
+    <div id="box4">
+        <h1>Increase Your Net Revenue</h1>
+        <p>Our proprietary technology enables us to offer lower operating costs to our partners meaning they take home up to 50% more every month than when they worked with our competition.</p>
+        <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/619bf3a972f16c08c2a24729_stack-ag-p-1600.png" alt="">
+       
+    </div>
+
+    <div id="box5">
+        <h1>Our value proposition</h1>
+        <p>We've built the operating system for parking management, infusing technology into every facet of the business.</p>
+    </div>
+<div id="box6">
+    <div >
+        <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f28039ee32a88bdfae6_cover.png" alt="">
+        <h3>Best-in-class Economics</h3>
+        <p>Increase Net Operating Income at your property by up to 50% vs other parking operators.</p>
+    </div>
+
+    <div>
+        <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f2937a53c7a2bfb65b7_slider.png" alt="">
+        <h3>You're in Control</h3>
+        <p>Need to reserve spaces for customers or validate employee vehicles? Our system was built with multi-use cases in mind.</p>
+    </div>
+
+    <div>
+        <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f2957e7c929611df3bb_secure.png" alt="">
+        <h3>Always On Enforcement</h3>
+        <p>AirGarage's proprietary network of enforcement officers scans day and night so you don't have to stress about violators.</p>
+    </div>
+</div>
+
+    <button onclick="submit" id="btn">
+        <h1>Get A better deal today</h1>
+        <p>Send us your parking management contract and get a counter offer in 24 hours</p>
+    </button>
+
+    <div id="box7">
+        <div >
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ad7c7bc5cb09481db5a7b3_Image%20from%20iOS%20(4)-p-500.jpeg" alt="">
+            <h2>Increase Parking Revenue</h2>
+            <p>Other parking operators nickel and dime owners by passing through every cost of their operation from uniforms to phone bills. AirGarage operates on a revenue share model so that we only make money if you do.</p>
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ad7c7bb4dc18e48c224f8e_Image%20from%20iOS%20(5)-p-500.jpeg" alt="">
+            <h2>Multifaceted Enforcement</h2>
+            <p>The combined power of AirGarage's network of enforcement officers and our Automatic License Plate Recognition cameras means no illegally parked vehicle will slip through the cracks unnoticed.</p>
+        </div>
+    </div>
+
+    <div id="box8">
+        <h1>Transparent and Data Driven</h1>
+        <p>We share all of our data with you in real time, so you’re always aware what’s happening on your property.</p>
+    </div>
+    <div id="box9">
+        <div >
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ac207311fbe70d9afcad50_bar.png" alt="">
+            <h3>Reporting & Analytics</h3>
+            <p>Forecast occupancy and maximize your revenue with transparent data.</p>
+        </div>
+    
+        <div>
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ac207363f6b974468c3cab_pie.png" alt="">
+            <h3>Historical trends</h3>
+            <p>View your property's performance over time and track its progress.</p>
+        </div>
+    
+        <div>
+            <img src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ac20734d588b250051fd79_fast.png" alt="">
+            <h3>Real-time updates</h3>
+            <p>Your dashboard updates with each parking rental as it happens. No more waiting for end of month reports.</p>
+        </div>
+    </div>
+
+    <div id="graph">
+
+    </div>
+    </div>
+
+</div>
+
 </body>
 </html>
 <script>
