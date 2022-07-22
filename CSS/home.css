@@ -16,8 +16,10 @@ h1{
     height: 35px;
     margin-top: 7px;
 }
-#box1>p{
+#box1>a{
     margin-left: 40px;
+    color: black;
+    text-decoration: none;
 }
 
 #box2{

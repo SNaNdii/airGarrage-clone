@@ -3,7 +3,7 @@
     background-color: #ffeecc
 }
 #parent>div{
-    height: 605px;
+    height: 720px;
 }
 #parent>div:nth-child(1){
     width: 500px;
@@ -25,24 +25,14 @@
    margin-top: 130px;
    margin-left:15px ;
 }
-#login>h2{
+#signup>h2{
     margin-top: 120px;
-    margin-bottom: 5px;
-    font-family: Verdana, sans-serif;
-    font-weight: 150;
-}
-span{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-#login>div>a>span{
-    color:rgb(8, 8, 180);
-    text-decoration: none;
+    margin-bottom: 30px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    
 }
 p{
-    margin-top: 60px;
-    margin-bottom: px;
-    margin-left: -240px;
+    margin-left: -330px;
     font-family: Verdana, sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -53,6 +43,7 @@ input{
     border: 0px;
     border-radius: 5px;
     background-color:#f2f2f2;
+    margin-bottom: 20px;
 }
 button{
     height: 45px;
@@ -61,6 +52,6 @@ button{
     background-color: #fff6e8;
     color: #fac7af;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
