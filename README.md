@@ -16,7 +16,7 @@ I worked on this project during unit-2 construct week at Masai School.
 Javascript, HTML, CSS
 
 ## Deployed Link
-You can check our project here :- <a href="tangy-kittens-9660.vercel.app">twiik_website_clone</a>
+You can check our project here :- <a href="tangy-kittens-9660.vercel.app">airgarrage_website_clone</a>
 
 ## Screenshorts
 ![image](https://user-images.githubusercontent.com/108002752/222921796-f07c101d-45e8-48f6-83a8-8f4871745a66.png)
